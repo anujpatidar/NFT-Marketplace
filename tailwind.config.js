@@ -5,7 +5,19 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+           
+           'sans': ['ui-sans-serif', 'system-ui'],
+            'serif': ['ui-serif', 'Georgia'],
+            'mono': ['ui-monospace', 'SFMono-Regular'],
+            'display': ['gilroy'],
+           'body': ['"Open Sans"'],
+           'heading': ['Cinzel'],
+           
+          }
+        },
+  variants: {
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   plugins: [],
 }
